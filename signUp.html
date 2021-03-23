@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/jpg" href="img/fayon.jpg">
+</head>
+<body>
+<section class="container-signUp">
+    <div class="content content-signUp">
+        <h1>Sign Up</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+        <form class="signUp-lables" action="login.html">
+            <div class="space-between">
+                <p>Username</p>
+                <input type="text" placeholder="Enter Username" name="username" required>
+            </div>
+            <div class="space-between">
+                <p>Password</p>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+            </div>
+            <div class="space-between">
+                <p>Repeat Password</p>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            </div>
+            <p>Role</p>
+            <div class="space-between singUp-radio">
+                <input type="radio" id="adminRadio" name="role" required>
+                <label for="scales">Admin</label>
+                <input type="radio" id="roleRadio" name="role" required>
+                <label for="scales">User</label>
+            </div>
+            <div class="space-between signUp-buttons">
+                <button type="submit" class="button button-1">OK</button>
+            </div>
+        </form>
+        <form class="signUp-lables" action="login.html">
+            <button type="submit" class="button button-2">Cancel</button>
+        </form>
+    </div>
+</section>
+<footer>
+    <p>
+        <span class="content-footer">Something like footer</span>
+    </p>
+</footer>
+</body>
+</html>
